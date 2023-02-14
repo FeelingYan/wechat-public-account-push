@@ -14,37 +14,37 @@ const USER_CONFIG = {
   APP_SECRET: '1f25fe54f319768029c132b40507c110',
 
   PROVINCE: '广东',
-  CITY: '惠州',
+  CITY: '肇庆',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '小宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'opX1O5h5Lj4Z2RHX1TuWVHrAZjrg',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'YHYwbhJHGfxYuEosZP1JMFCMz09TzAqhAZBA3gEwybs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '11-19',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '小宝贝', year: '1997', date: '10-21',
-        },
+        //{
+        //  type: '*生日', name: '小宝贝', year: '1997', date: '10-21',
+        //},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '小宝贝', year: '1997', date: '11-19',
         },
         {
-          type: '节日', name: '相连纪念日', year: '2021', date: '05-04',
+          type: '节日', name: '相恋纪念日', year: '2021', date: '05-04',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2021-03-05' },
+        { keyword: 'know_day', date: '2021-03-05' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2021-05-04' },
+        { keyword: 'love_day', date: '2021-05-04' },
       ],
     },
   ],
